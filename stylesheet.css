@@ -1,4 +1,26 @@
 /* style.css */
 /* Programmé par Félix */
 /* Le 26/09/2021 */
+h1 {
+    color: crimson;
+    font-size: 3em;
+    text-align: center;
+}
 
+div > p {
+    color: darkgreen;
+}
+
+p.paragraphe::first-letter {
+    font-size: 2em;
+}
+#paragraphe1::first-letter {
+    color: purple;
+}
+
+#paragraphe2::first-letter,#paragraphe3::first-letter,#paragraphe4::first-letter,#paragraphe5::first-letter {
+    color: green;
+}
+h2:hover{
+    color: yellow;
+}
