@@ -1,0 +1,36 @@
+/* par felix-Xavier Guevin */
+/* style.css */
+/* le 09/09/2021 */
+
+html, body {
+   height: 100%;
+   width: 100%;
+   
+}
+
+#Container {
+   display: flex;  
+   background-color: green;
+   height: 100%;
+   min-height: 100vh;
+   font-size: 3em;
+   flex-grow: 1;
+}
+
+#contenu  {
+   display: flex;
+   flex-grow: 5;
+   background-color: grey;
+   height: 20vh;
+}
+
+#Article {
+   display: flex;
+   flex-grow: 3;
+   min-height: 60vh
+}
+
+#aside {
+}
+
+

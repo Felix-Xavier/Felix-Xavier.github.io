@@ -1,0 +1,23 @@
+/* style.css */
+/* par felix-xavier guevin */
+/* le 2021/09/14 */
+
+#grid-container {
+    display: grid;
+
+    grid-template-columns: 100px 100px auto;
+    grid-template-rows: 100px 100px 100px 100px;
+
+    grid-gap: 10px;
+}
+
+#grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: green;
+}
+
+.item2 {
+}
